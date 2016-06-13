@@ -1,0 +1,48 @@
+html,
+body {
+    height: 100%;
+    max-height: 100%;
+}
+
+body {
+  font-family: 'Roboto','Helvetica','Arial',sans-serif;
+  font-size: 20px;
+  padding: 0;
+  position: relative; }
+
+.banner{
+  width: 100%;
+}
+
+.info_html{
+  padding: 30px;
+  width: calc(100% - 60px);
+}
+
+.info_html .infoSection{
+  display: none !important;
+}
+
+.info_html .currentImage{
+  display: none !important;
+}
+
+.modal-dialog {
+  color:#333;
+  margin: 0;
+  width: 100%;
+  left: 50%;
+  width: 80%;
+  -webkit-transform: translate(-50%, 0);
+  -moz-transform: translate(-50%, 0);
+  -ms-transform: translate(-50%, 0);
+  transform: translate(-50%, 0); }
+
+@media (min-width: 768px) {
+  .modal-dialog {
+    left: 50%;
+    width: 80%;
+    -webkit-transform: translate(-50%, 0);
+    -moz-transform: translate(-50%, 0);
+    -ms-transform: translate(-50%, 0);
+    transform: translate(-50%, 0); } }
