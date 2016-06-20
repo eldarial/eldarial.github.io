@@ -14,35 +14,23 @@ body {
   width: 100%;
 }
 
-.info_html{
-  padding: 30px;
-  width: calc(100% - 60px);
+.profile{
+  margin-left: calc(50% - 100px);
+  margin-top: 150px;
+  margin-bottom: 150px;
 }
 
-.info_html .infoSection{
-  display: none !important;
+.profile img{
+  border-radius: 50%;
 }
 
-.info_html .currentImage{
-  display: none !important;
+.nav-center {
+  text-align: center;
 }
-
-.modal-dialog {
-  color:#333;
-  margin: 0;
-  width: 100%;
-  left: 50%;
-  width: 80%;
-  -webkit-transform: translate(-50%, 0);
-  -moz-transform: translate(-50%, 0);
-  -ms-transform: translate(-50%, 0);
-  transform: translate(-50%, 0); }
-
-@media (min-width: 768px) {
-  .modal-dialog {
-    left: 50%;
-    width: 80%;
-    -webkit-transform: translate(-50%, 0);
-    -moz-transform: translate(-50%, 0);
-    -ms-transform: translate(-50%, 0);
-    transform: translate(-50%, 0); } }
+.nav-center ul.nav {
+  display: inline-block;
+}
+.nav-center ul.nav li {
+  display: inline a;
+  display-float: left;
+}
