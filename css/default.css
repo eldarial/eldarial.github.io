@@ -35,6 +35,27 @@ body {
   display-float: left;
 }
 
+article{
+  display: inline-block;
+  -webkit-transform: translate(-50%,0);
+  -moz-transform: translate(-50%,0);
+  -ms-transform: translate(-50%,0);
+  transform: translate(-50%,0);
+  position: relative;
+  text-align: center;
+  left: 50%;
+  min-height: 500px;
+}
+
+#projects article div{
+  display: inline-block;
+  vertical-align: top;
+}
+
+#video {
+  
+}
+
 #about_me{
   margin-bottom: 30px;
   position: relative;
