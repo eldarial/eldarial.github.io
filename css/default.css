@@ -35,7 +35,7 @@ body {
   display-float: left;
 }
 
-article{
+#projects article{
   display: inline-block;
   -webkit-transform: translate(-50%,0);
   -moz-transform: translate(-50%,0);
@@ -54,6 +54,17 @@ article{
 
 #video {
   
+}
+
+#publications article{
+  -webkit-transform: translate(-50%,0);
+  -moz-transform: translate(-50%,0);
+  -ms-transform: translate(-50%,0);
+  transform: translate(-50%,0);
+  left: 50%;
+  width: 80%;
+  max-width: 760px;
+  position: relative;
 }
 
 #about_me{
