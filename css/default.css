@@ -34,3 +34,24 @@ body {
   display: inline a;
   display-float: left;
 }
+
+#about_me{
+  margin-bottom: 30px;
+  position: relative;
+}
+
+#about_me p{
+  -webkit-transform: translate(-50%,0);
+  -moz-transform: translate(-50%,0);
+  -ms-transform: translate(-50%,0);
+  transform: translate(-50%,0);
+  position: relative;
+  left: 50%;
+  text-align: justify;
+  width: 80%;
+  max-width: 760px;
+}
+
+h1{
+  text-align: center;
+}
