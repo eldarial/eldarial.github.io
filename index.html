@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+<title>Darial Homepage</title>
 <head class="no-js">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, user-scalable=no,initial-scale = 1.0">
@@ -9,36 +10,56 @@
 <body>
     <script src="http://code.jquery.com/jquery.js"></script>
     <script src="js/libs/bootstrap/bootstrap.min.js"></script>
-    <img class="banner" src="img/ban_cube.png">
+    <img class="banner" src="img/ban_body2.png">
     <div class="profile">
     	<img  src="img/darial.jpg" width="200">
     </div>
 
+    <h1 align="center"><span itemprop="name">David Altamar Donado</span></h1>
 
-
-    <div class="nav-center">
+    <div class="nav-center" style="margin-top: 20px;margin-bottom: 20px;">
         <ul class="nav nav-pills">
             <li class="active"><a data-toggle="pill" href="#projects">Projects</a></li>
             <li><a data-toggle="pill" href="#publications">Publications</a></li>
+            <li><a data-toggle="pill" href="#about_me">About me</a></li>
         </ul>
     </div>
 
     <div class="tab-content">
-        <div id="projects" class="tab-pane fade in active">
 
-            <p>People counting using RGB images</p>
-            <iframe width="420" height="345"
+        <div id="projects" class="tab-pane fade in active">
+            <p>People counting using RGB videos</p>
+            <iframe width="420" height="345" style="margin-top: 20px;margin-bottom: 20px;margin-left: 30px;"
             src="http://youtube.com/embed/6xG1hKrx62c">
             </iframe>
             <p>Augmented reality app</p>
-            <img  src="img/ar2.png" width="200">
-
-
-
+            <img  src="img/ar2.png" width="300" style="margin-top: 20px;margin-bottom: 20px;margin-left: 30px;">
+            <img  src="img/ar1.png" width="300" style="margin-top: 20px;margin-bottom: 20px;">
         </div>
+
         <div id="publications" class="tab-pane fade">
-          <p>List of publications</p>
+            <p>List of publications</p>
+            <div class="publication" style="margin-left: 30px;margin-top: 10px;">
+            <strong><a href=#>The grey area in wireless communications: A multiplatform experimental study</a></strong><br>
+            David Altamar, William Toro, Maria Calle et al. <em>LATINCOM, Nov 2014.</em>
+            </div>
+
+            <div class="publication" style="margin-left: 30px;margin-top: 10px;margin-bottom: 30px;">
+            <strong><a href=#>
+            A basic method for the design of an oscillator using an electromechanical resonator</a></strong><br>
+            David Altamar, William Toro, Jorge Martinez et al. <em>LASCAS, Feb 2015.</em>
+            </div>
         </div>
+
+        <div id="about_me" class="tab-pane fade" style="margin-left: calc(50% - 380px);margin-right: calc(50% - 380px);margin-bottom: 30px;">
+            <p class="text-justify">Welcome! my name is David and I am an electrical engineer from Colombia. I got my Master degree in Electronics from Universidad del Norte working with <a href="http://www.niebles.net/">Juan Carlos Niebles</a>. My research interests are computer vision, machine learning and computer graphics.</p>
+            <table class="contact" style="margin-left: 40px">
+            <tr>
+            Email: <a href="mailto:darialdo92@gmail.com">darialdo92@gmail.com</a><br>
+            </tr>
+            </table>
+        </div>
+
     </div>
 
 
