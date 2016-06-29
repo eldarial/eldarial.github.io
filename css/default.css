@@ -35,6 +35,16 @@ body {
   display-float: left;
 }
 
+.tab-content{
+  padding-top: 50px;
+  background: #00BCD5;
+  color: #FFF;
+}
+
+.tab-content a{
+  color: #006776;
+}
+
 #projects article{
   display: inline-block;
   -webkit-transform: translate(-50%,0);
